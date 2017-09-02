@@ -1,9 +1,13 @@
+import java.util.Scanner;
+
 /**
  * Created by nolex on 02.09.2017.
  */
 public class Test {
     public static void main (String[] args)
     {
-        System.out.print("Hello World");
+        Scanner scanner = new Scanner(System.in);
+        String take = scanner.nextLine();
+        System.out.print(take);
     }
 }
